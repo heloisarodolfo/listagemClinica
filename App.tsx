@@ -96,7 +96,7 @@ export default function App(){
             </View>
             </Modal>
 
-            <Text style={styles.subtitle}>Pacientes Agendados</Text>
+            <Text style={styles.subtitle}>Agendamentos</Text>
             <FlatList
             data={pacientes}
             keyExtractor={(item) => item.id}
